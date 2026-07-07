@@ -8,14 +8,18 @@ function Home() {
             <p className="text-x1">Melhores ofertas!</p>
 
             <div className="flex justify-around gap-4">
-              <div className="rounded text-white border-white border-solid border-2 py-2 px-4">
+              <div className="rounded border-white border-solid border-2 py-2 px-4">
                 Nova Categoria
               </div>
             </div>
           </div>
 
           <div className="flex justify-center">
-            <img src="" alt="Imagem página Home" className="w-2/3" />
+            <img
+              src="https://images.vexels.com/media/users/3/282275/isolated/preview/670698f96aa37001fa4334056ca02de0-farmacia-coracao.png"
+              alt="Imagem página Home"
+              className="w-2/3"
+            />
           </div>
         </div>
       </div>
