@@ -9,7 +9,13 @@ function Navbar() {
             Farmacia
           </Link>
           <div className="flex gap-4">
-            Categorias Produtos Cadastrar Produtos
+            Produtos
+            <Link to="/categorias" className="hover:bg-slate-400">
+              Categorias
+            </Link>
+            <Link to="/cadastrarcategoria" className="hover:bg-slate-400">
+              Cadastrar Categoria
+            </Link>
           </div>
         </div>
       </div>
