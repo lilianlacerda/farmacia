@@ -9,7 +9,9 @@ function Navbar() {
             Farmacia
           </Link>
           <div className="flex gap-4">
-            Produtos
+            <Link to="/produtos" className="hover:bg-slate-400">
+              Produtos
+            </Link>
             <Link to="/categorias" className="hover:bg-slate-400">
               Categorias
             </Link>

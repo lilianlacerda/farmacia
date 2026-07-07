@@ -1,3 +1,6 @@
+import ListaProduto from "../../components/produto/listaproduto/ListaProduto";
+import ModalProduto from "../../components/produto/modalpostagem/ModalProduto";
+
 function Home() {
   return (
     <>
@@ -8,9 +11,7 @@ function Home() {
             <p className="text-x1">Melhores ofertas!</p>
 
             <div className="flex justify-around gap-4">
-              <div className="rounded border-white border-solid border-2 py-2 px-4">
-                Novo Produto
-              </div>
+              <ModalProduto />
             </div>
           </div>
 
@@ -23,6 +24,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <ListaProduto />
     </>
   );
 }
